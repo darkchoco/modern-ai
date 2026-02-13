@@ -1,0 +1,23 @@
+# Minimal dependencies for Chat frontend/backend
+streamlit==1.45.1
+
+# LangChain + AWS Bedrock
+langchain==1.1.0
+langchain-core==1.1.0
+langchain-aws==1.1.0
+langgraph==1.0.2
+
+# AWS SDK
+boto3==1.40.59
+botocore==1.40.59
+s3transfer==0.14.0
+jmespath==1.0.1
+
+# Numerical / validation libs required by LangChain / integrations
+# numpy removed to avoid source build on Windows; let pip choose a compatible binary wheel
+pydantic==2.10.6
+pydantic-core==2.27.2
+
+# Small utilities
+typing-extensions==4.12.2
+python-dotenv==1.1.0
