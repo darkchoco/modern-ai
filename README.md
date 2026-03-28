@@ -10,7 +10,11 @@
 
 ## List of projects
 
-### llm_engineering
+### llm-agent-practices
+* [Udemy] LLM Agent 입문부터 실전까지 - `RM#1089`
+* venv는 `llm-engineering`를 같이 사용한다.
+
+### llm-engineering
 * `_src` 내 [llm_engineering](https://github.com/ed-donner/llm_engineering)의 fork를 둔다. (주기적으로 sync)
 [CHANGELOG.md](CHANGELOG.md)
 
@@ -18,3 +22,4 @@
 
 ### spring-ai-fast-track
 * XPS15에서 진행
+
